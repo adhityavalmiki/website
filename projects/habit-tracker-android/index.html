@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Habit Tracker Android | Adhitya Valmiki</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.js"></script>
+    <link rel="stylesheet" href="../../web.css" />
+    <script src="../../web.js" defer></script>
+</head>
+<body>
+    <div class="page-shell">
+        <div class="grid-backdrop" aria-hidden="true"></div>
+
+        <nav class="navbar">
+            <div class="nav-inner">
+                <a class="brand" href="/">
+                    <div class="brand-mark">AV</div>
+                    <div class="brand-copy">
+                        <strong>Adhitya Valmiki</strong>
+                        <span>Offensive Security Portfolio</span>
+                    </div>
+                </a>
+                <button class="hamburger" type="button" onclick="toggleMenu()" aria-label="Toggle navigation">|||</button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about/">About</a></li>
+                    <li><a href="/projects/" class="active">Projects</a></li>
+                    <li><a href="/Contact/">Contact</a></li>
+                    <li><a href="/terminal/"><span class="nav-icon">&gt;_</span>Terminal</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <main class="container section">
+            <section class="page-intro panel terminal-panel">
+                <div class="window-bar">
+                    <div class="window-dots"><span></span><span></span><span></span></div>
+                    <div class="window-title">projects/habit-tracker-android / dossier</div>
+                    <div class="status-pill">solo build</div>
+                </div>
+                <div class="page-intro__content">
+                    <p class="eyebrow">Project Detail</p>
+                    <h1><span class="project-device-icon project-device-icon--large" aria-hidden="true"></span>Habit Tracker Android</h1>
+                    <p>Habit Tracker Android is a solo mobile application built around consistency, daily progress, and routine building, turning self-improvement into practical software.</p>
+                    <div class="hero-actions">
+                        <a class="button-secondary" href="/projects/">Go Back</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="section-heading">
+                    <h2>Overview</h2>
+                    <p>Habit Tracker Android is a productivity mobile application designed to help users build positive habits and maintain consistency in their daily routines. The app allows users to create habits, track progress, and analyze performance over time.</p>
+                </div>
+                <div class="info-grid">
+                    <article class="info-card panel terminal-panel">
+                        <h3>Purpose</h3>
+                        <p class="copy">Habit tracking helps users monitor their daily activities and measure progress toward self-improvement goals. Tracking habits provides feedback on whether users are staying consistent or need to adjust their routines.</p>
+                    </article>
+                    <article class="info-card panel terminal-panel">
+                        <h3>Languages</h3>
+                        <ul class="info-list">
+                            <li>Java</li>
+                            <li>Kotlin</li>
+                            <li>XML</li>
+                        </ul>
+                    </article>
+                    <article class="info-card panel terminal-panel">
+                        <h3>Environment</h3>
+                        <ul class="info-list">
+                            <li>Android Studio</li>
+                            <li>SQLite / Local Storage</li>
+                            <li>Material UI components</li>
+                        </ul>
+                    </article>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="section-heading">
+                    <h2>Features</h2>
+                    <p>The app focuses on habit management, progress visibility, and consistency tracking to support long-term self-improvement.</p>
+                </div>
+                <div class="skills-grid">
+                    <article class="skill-card panel terminal-panel">
+                        <h3>Habit Management</h3>
+                        <ul>
+                            <li>Create new habits</li>
+                            <li>Define habit description or goal</li>
+                            <li>Set habit frequency as daily or weekly</li>
+                        </ul>
+                    </article>
+                    <article class="skill-card panel terminal-panel">
+                        <h3>Habit Tracking</h3>
+                        <ul>
+                            <li>Mark habits as completed</li>
+                            <li>Maintain a history of completed habits</li>
+                            <li>Track consistency over time</li>
+                        </ul>
+                    </article>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="section-heading">
+                    <h2>Progress Analysis</h2>
+                    <p>The application also helps users understand their performance over time instead of only recording raw habit completion.</p>
+                </div>
+                <div class="skills-grid">
+                    <article class="skill-card panel terminal-panel">
+                        <h3>Performance Tracking</h3>
+                        <ul>
+                            <li>View all tracked habits</li>
+                            <li>Analyze performance for each habit</li>
+                            <li>Check habit logs and completion dates</li>
+                            <li>Identify longest streaks</li>
+                        </ul>
+                    </article>
+                    <article class="skill-card panel terminal-panel">
+                        <h3>Habit Streak System</h3>
+                        <ul>
+                            <li>Displays current streak</li>
+                            <li>Displays longest streak</li>
+                            <li>Helps motivate users to maintain consistency</li>
+                        </ul>
+                    </article>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="section-heading">
+                    <h2>Tech Stack</h2>
+                    <p>The app is built with Android-native development tools, local storage, and mobile UI components focused on structured usability.</p>
+                </div>
+                <div class="skills-grid">
+                    <article class="skill-card panel terminal-panel">
+                        <h3>Android (Java/Kotlin)</h3>
+                        <p class="copy">Used for mobile app development and application logic.</p>
+                    </article>
+                    <article class="skill-card panel terminal-panel">
+                        <h3>SQLite / Local Storage</h3>
+                        <p class="copy">Used to store habits and tracking data directly on the device.</p>
+                    </article>
+                    <article class="skill-card panel terminal-panel">
+                        <h3>Android Studio</h3>
+                        <p class="copy">Used as the development environment for building and testing the application.</p>
+                    </article>
+                    <article class="skill-card panel terminal-panel">
+                        <h3>Material UI Components</h3>
+                        <p class="copy">Used to create a cleaner and more structured mobile interface.</p>
+                    </article>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>

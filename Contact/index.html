@@ -1,32 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta charset="UTF-8" />
-  <title>Contact | Adhitya Valmiki</title>
-  <link rel="stylesheet" href="../web.css" />
-  <script src="../web.js" defer></script>
-
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Adhitya Valmiki</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.js"></script>
+    <link rel="stylesheet" href="../web.css" />
+    <script src="../web.js" defer></script>
 </head>
 <body>
-  <nav class="navbar">
-   <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
-    <ul class="nav-links" id="navLinks">
-        <li><a href="/" >Home</a></li>
-        <li><a href="/about/">About</a></li>
-        <li><a href="/skills/">Skills</a></li>
-        <li><a href="/Contact/" class="active">Contact</a></li>
-    </ul>
-  </nav>
+    <div class="page-shell">
+        <div class="grid-backdrop" aria-hidden="true"></div>
 
-  <main class="contact-page">
-    <h1>📬 Contact Me</h1>
-    <p>You can reach me on Instagram:</p>
-    <div class="social-links">
-      <a href="https://www.instagram.com/adhitya.valmiki" target="_blank">
-        <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram" />
-      </a>
+        <nav class="navbar">
+            <div class="nav-inner">
+                <a class="brand" href="/">
+                    <div class="brand-mark">AV</div>
+                    <div class="brand-copy">
+                        <strong>Adhitya Valmiki</strong>
+                        <span>Offensive Security Portfolio</span>
+                    </div>
+                </a>
+                <button class="hamburger" type="button" onclick="toggleMenu()" aria-label="Toggle navigation">|||</button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about/">About</a></li>
+                    <li><a href="/projects/">Projects</a></li>
+                    <li><a href="/Contact/" class="active">Contact</a></li>
+                    <li><a href="/terminal/"><span class="nav-icon">&gt;_</span>Terminal</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <main class="container section">
+            <section class="page-intro panel terminal-panel">
+                <div class="window-bar">
+                    <div class="window-dots"><span></span><span></span><span></span></div>
+                    <div class="window-title">contact.gateway / secure relay</div>
+                    <div class="status-pill">accepting pings</div>
+                </div>
+                <div class="page-intro__content">
+                    <p class="eyebrow">Communication Node</p>
+                    <h1>Open a <span>secure channel</span></h1>
+                    <p>Reach out through the active public endpoint below. The layout now feels more like a controlled relay station than a generic contact page.</p>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="contact-grid">
+                    <article class="contact-card panel terminal-panel">
+                        <h3>Primary Link</h3>
+                        <div class="contact-copy">
+                            <p>If you want to talk about projects, cybersecurity, UI design, or collaborations, Instagram is the current public contact path.</p>
+                            <p>The link opens in a new tab and is framed like an active route instead of a standard social card.</p>
+                        </div>
+                        <div class="contact-links">
+                            <a class="contact-link" href="https://www.instagram.com/adhitya.valmiki" target="_blank" rel="noreferrer">
+                                <div>
+                                    <strong>Instagram</strong>
+                                    <span>@adhitya.valmiki</span>
+                                </div>
+                                <span class="arrow">-&gt;</span>
+                            </a>
+                            <a class="contact-link" href="https://t.me/Adhityavalmiki" target="_blank" rel="noreferrer">
+                                <div>
+                                    <strong>Telegram</strong>
+                                    <span>@Adhityavalmiki</span>
+                                </div>
+                                <span class="arrow">-&gt;</span>
+                            </a>
+                            <a class="contact-link" href="https://github.com/adhityavalmiki" target="_blank" rel="noreferrer">
+                                <div>
+                                    <strong>GitHub</strong>
+                                    <span>github.com/adhityavalmiki</span>
+                                </div>
+                                <span class="arrow">-&gt;</span>
+                            </a>
+                        </div>
+                    </article>
+                    <aside class="contact-card panel terminal-panel">
+                        <h3>Status Feed</h3>
+                        <ul class="detail-list">
+                            <li>Channel integrity: online</li>
+                            <li>Preferred topics: security, design, development</li>
+                            <li>Response mode: social DM</li>
+                            <li>Profile signal: dark command-center aesthetic</li>
+                        </ul>
+                    </aside>
+                </div>
+            </section>
+        </main>
     </div>
-  </main>
 </body>
 </html>
