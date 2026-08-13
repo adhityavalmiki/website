@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Adhitya Valmiki — Cybersecurity, ethical hacking and full-stack development portfolio."/>
+  <title>ADHITYA VALMIKI</title>
+  <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="assets/css/main.css"/>
+</head>
+<body>
+  <div class="ticker"><span class="ticker-inner">
+    &nbsp;★&nbsp; KETHA ADHITYA VALMIKI &nbsp;—&nbsp; ETHICAL HACKER &nbsp;—&nbsp; CYBERSECURITY &nbsp;—&nbsp; FULL-STACK DEV &nbsp;—&nbsp; REACT NATIVE &nbsp;—&nbsp; KALI LINUX &nbsp;★&nbsp;
+    KETHA ADHITYA VALMIKI &nbsp;—&nbsp; ETHICAL HACKER &nbsp;—&nbsp; CYBERSECURITY &nbsp;—&nbsp; FULL-STACK DEV &nbsp;—&nbsp; REACT NATIVE &nbsp;—&nbsp; KALI LINUX &nbsp;★&nbsp;
+  </span></div>
+
+  <nav id="navbar">
+    <a class="nav-logo" href="#" onclick="navigate('home');return false;">KA<span>V</span></a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#" onclick="navigate('home');closeMenu();return false;" data-page="home" data-label="Home">Home</a></li>
+      <li><a href="#" onclick="navigate('about');closeMenu();return false;" data-page="about" data-label="About">About</a></li>
+      <li><a href="#" onclick="navigate('projects');closeMenu();return false;" data-page="projects" data-label="Projects">Projects</a></li>
+      <li><a href="#" onclick="navigate('contact');closeMenu();return false;" data-page="contact" data-label="Contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></div>
+  </nav>
+
+  <main id="app">
+    <div id="home-slot"><div id="page-home" class="page">
+  <div class="home-top">
+    <div class="home-name">
+      ADHITYA<br>
+      <span class="stroke">VALM</span><span class="acc">IKI</span>
+    </div>
+  </div>
+  <div class="home-bottom">
+    <div class="home-desc">
+      <p>
+        <strong>Computer Science Engineering student</strong> specialising in cybersecurity, ethical hacking and full-stack development. Proficient in <strong>Python, Java, C, JavaScript</strong> and cross-platform mobile development with <strong>React Native</strong> and <strong>Flutter</strong>. I work on <strong>Fedora Linux</strong> daily and use <strong>Kali Linux</strong> for security research and penetration testing practice. I build production-ready projects independently — leveraging <strong>AI-assisted workflows</strong> to deliver fast, clean and maintainable code.
+      </p>
+      <div class="home-cta">
+        <a href="#" class="btn-brut primary" onclick="navigate('projects');return false;">View Projects ↗</a>
+        <a href="#" class="btn-brut ghost" onclick="navigate('about');return false;">About Me</a>
+      </div>
+    </div>
+    <div class="home-tags">
+      <div class="tag-row"><span class="tag-num">01</span><span class="tag-label">Ethical Hacking</span></div>
+      <div class="tag-row"><span class="tag-num">02</span><span class="tag-label">Cybersecurity</span></div>
+      <div class="tag-row"><span class="tag-num">03</span><span class="tag-label">Full-Stack Web Dev</span></div>
+      <div class="tag-row"><span class="tag-num">04</span><span class="tag-label">React Native Apps</span></div>
+      <div class="tag-row"><span class="tag-num">05</span><span class="tag-label">AI-Assisted Dev</span></div>
+    </div>
+  </div>
+</div></div>
+    <div id="about-slot"></div>
+    <div id="projects-slot"></div>
+    <div id="project-detail-slot"></div>
+    <div id="contact-slot"></div>
+  </main>
+
+  <footer>
+    <div class="footer-cell"><span class="footer-logo">KAV</span></div>
+    <div class="footer-cell">© 2026 · Ketha Adhitya Valmiki</div>
+    <div class="footer-cell"><a href="https://adhityavalmiki.eu.org" target="_blank">adhityavalmiki.eu.org</a></div>
+  </footer>
+
+  <script src="assets/js/projects.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
